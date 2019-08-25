@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="diancanwang-qiantai:war">
+    <output-path>$PROJECT_DIR$/diancanwang-qiantai/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>diancanwang-qiantai</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="diancanwang-qiantai.war">
+      <element id="artifact" artifact-name="diancanwang-qiantai:war exploded" />
+    </root>
+  </artifact>
+</component>
